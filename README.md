@@ -9,11 +9,11 @@ A CLI tool to generate directory and file structures from a JSON file.
 
 ```bash
 pip install projgen
-
+```
 ## Usage
 ```bash
 projgen path/to/project-structure.json
-
+```
 - Enter the project_name, it is optional
 
 ## Write the project structure in project-structure.json - A example below
@@ -28,5 +28,5 @@ projgen path/to/project-structure.json
     { "level": 1, "type": "file", "name": ".gitignore" }
   ]
 }
-
+```
 
